@@ -1,0 +1,6 @@
+{
+  "name": "Radio internet openwrt huawei hg553",
+  "tagline": "Hello: Here are some useful public for a receiver Internet radio scripts. regards Joguit",
+  "body": "# Radio_internet_openwrt\r\n# # under construction\r\nHello: Here are some useful public for a receiver Internet radio scripts. regards Joguit\r\n\r\nHow to:\r\n-Install OpenWRT in your router.\r\n-Instal support for USB audio devices:\r\n    opkg update\r\n    opkg install kmod-usb2 kmod-usb-core kmod-usb-ohci kmod-usb-audio\r\n    reboot\r\n-Install de USB card.\r\n  Insert the USB audio card\r\n  check with:\r\n   ls /dev/a*\r\nif card is detected, show:\r\n  /dev/audio\r\n-Install the server \"MUSIC PLAYER DAEMON\" and the client mpc:\r\n   opkg update\r\n   opkg install mpd-full mpc\r\n   \r\n  ",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
